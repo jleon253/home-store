@@ -1,0 +1,1421 @@
+{
+    "data": {
+        "results": [
+            {
+                "productId": "901128",
+                "merchantCategoryId": "0104060402",
+                "skuId": "901128",
+                "isPrimeEligible": false,
+                "displayName": "Silla Escalera 4 Pasos Acero Gris Bauker",
+                "brand": "Bauker",
+                "model": "LFD120TB1-BA",
+                "media": {
+                    "id": "901128",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": true,
+                    "cc_next_day_zones": false
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "179.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 179900
+                    }
+                ],
+                "totalReviews": "21",
+                "rating": "4.8095",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "LFD120TB1-BA"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "42 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "1.33 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/901128/public",
+                    "https://media.falabella.com/sodimacCO/901128_1/public",
+                    "https://media.falabella.com/sodimacCO/901128_12/public",
+                    "https://media.falabella.com/sodimacCO/901128_13/public",
+                    "https://media.falabella.com/sodimacCO/901128_21/public",
+                    "https://media.falabella.com/sodimacCO/901128_22/public"
+                ]
+            },
+            {
+                "productId": "438976",
+                "merchantCategoryId": "0104060402",
+                "skuId": "438976",
+                "isPrimeEligible": false,
+                "displayName": "Escalera 1.4 m 4 P Tubular Plegable Acero 91 kg Pretul",
+                "brand": "Pretul",
+                "model": "24122",
+                "media": {
+                    "id": "438976",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-53%"
+                    }
+                ],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "229.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 229900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "491.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 491900
+                    }
+                ],
+                "totalReviews": "1",
+                "rating": "4",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "24122"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "1.4 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/438976/public",
+                    "https://media.falabella.com/sodimacCO/438976_01/public",
+                    "https://media.falabella.com/sodimacCO/438976_02/public",
+                    "https://media.falabella.com/sodimacCO/438976_03/public",
+                    "https://media.falabella.com/sodimacCO/438976_04/public",
+                    "https://media.falabella.com/sodimacCO/438976_1/public"
+                ]
+            },
+            {
+                "productId": "438975",
+                "merchantCategoryId": "0104060402",
+                "skuId": "438975",
+                "isPrimeEligible": false,
+                "displayName": "Escalera 1.2 m 3 P Tubular Plegable 91 kg Pretul",
+                "brand": "Pretul",
+                "model": "TRP24120",
+                "media": {
+                    "id": "438975",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-51%"
+                    }
+                ],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "185.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 185900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "383.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 383900
+                    }
+                ],
+                "totalReviews": "1",
+                "rating": "1",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "TRP24120"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Uso",
+                        "value": "Hogar"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/438975/public",
+                    "https://media.falabella.com/sodimacCO/438975_1/public"
+                ]
+            },
+            {
+                "productId": "901120",
+                "merchantCategoryId": "0104060401",
+                "skuId": "901120",
+                "isPrimeEligible": false,
+                "displayName": "Butaco 0.46M Al 1P 150K Bauker",
+                "brand": "Bauker",
+                "model": "AO88-202-BA",
+                "media": {
+                    "id": "901120",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-7%"
+                    }
+                ],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": true,
+                    "cc_next_day_zones": false
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "CMR",
+                        "symbol": "$",
+                        "price": "92.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 92900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "99.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 99900
+                    }
+                ],
+                "totalReviews": "2",
+                "rating": "5",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "AO88-202-BA"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Cerraduras"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "41 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "47.5 cm"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/901120/public",
+                    "https://media.falabella.com/sodimacCO/901120_01/public",
+                    "https://media.falabella.com/sodimacCO/901120_02/public",
+                    "https://media.falabella.com/sodimacCO/901120_03/public",
+                    "https://media.falabella.com/sodimacCO/901120_04/public",
+                    "https://media.falabella.com/sodimacCO/901120_11/public"
+                ]
+            },
+            {
+                "productId": "279967",
+                "merchantCategoryId": "0104060402",
+                "skuId": "279967",
+                "isPrimeEligible": false,
+                "displayName": "Silla Escalera Gorila 3 Pasos 1.3Mt Acero Negra",
+                "brand": "Ubermann",
+                "model": "TM82-103I",
+                "media": {
+                    "id": "279967",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": false,
+                    "cc_next_day_zones": true
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "179.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 179900
+                    }
+                ],
+                "totalReviews": "115",
+                "rating": "4.8522",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "bankBadge": {
+                    "type": "BANK_PROMOTION",
+                    "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt140cb15a36b347e1/670ea7adb6a7ca3378b2ca0f/Exclusivo.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "TM82-103I"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "49 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "1.3 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/279967/public",
+                    "https://media.falabella.com/sodimacCO/279967_01/public",
+                    "https://media.falabella.com/sodimacCO/279967_12/public",
+                    "https://media.falabella.com/sodimacCO/279967_13/public",
+                    "https://media.falabella.com/sodimacCO/279967_17/public",
+                    "https://media.falabella.com/sodimacCO/279967_21/public"
+                ]
+            },
+            {
+                "productId": "907855",
+                "merchantCategoryId": "0104060401",
+                "skuId": "907855",
+                "isPrimeEligible": false,
+                "displayName": "Escalera Piso Aluminio 0.59M 3 Peldaños",
+                "brand": "Bauker",
+                "model": "AO87-203",
+                "media": {
+                    "id": "907855",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "129.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 129900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "AO87-203"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Escalera Aluminio"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "38.6 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "0.51 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/907855/public",
+                    "https://media.falabella.com/sodimacCO/907855_01/public",
+                    "https://media.falabella.com/sodimacCO/907855_401/public",
+                    "https://media.falabella.com/sodimacCO/907855_400/public",
+                    "https://media.falabella.com/sodimacCO/907855_402/public",
+                    "https://media.falabella.com/sodimacCO/907855_21/public"
+                ]
+            },
+            {
+                "productId": "901136",
+                "merchantCategoryId": "0104060201",
+                "skuId": "901136",
+                "isPrimeEligible": false,
+                "displayName": "Silla Escalera 1.79 M 5 Pasos Al 150 Kg Bauker",
+                "brand": "Bauker",
+                "model": "AO114-105-BA",
+                "media": {
+                    "id": "901136",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": true,
+                    "cc_next_day_zones": false
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "202.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 202900
+                    }
+                ],
+                "totalReviews": "1",
+                "rating": "5",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "AO114-105-BA"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla escalera"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "48.5 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "179 cm"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/901136/public",
+                    "https://media.falabella.com/sodimacCO/901136_01/public",
+                    "https://media.falabella.com/sodimacCO/901136_401/public",
+                    "https://media.falabella.com/sodimacCO/901136_400/public",
+                    "https://media.falabella.com/sodimacCO/901136_402/public",
+                    "https://media.falabella.com/sodimacCO/901136_11/public"
+                ]
+            },
+            {
+                "productId": "901131",
+                "merchantCategoryId": "0104060402",
+                "skuId": "901131",
+                "isPrimeEligible": false,
+                "displayName": "Silla Escalera 3 Peldaños Gorila Acero 1.3 M Negra Ubermann",
+                "brand": "Ubermann",
+                "model": "TM82-103I",
+                "media": {
+                    "id": "901131",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": true,
+                    "cc_next_day_zones": false
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "209.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 209900
+                    }
+                ],
+                "totalReviews": "2",
+                "rating": "5",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "TM82-103I"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Sillas"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "49 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "1.3 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/901131/public",
+                    "https://media.falabella.com/sodimacCO/901131_01/public",
+                    "https://media.falabella.com/sodimacCO/901131_400/public",
+                    "https://media.falabella.com/sodimacCO/901131_402/public",
+                    "https://media.falabella.com/sodimacCO/901131_401/public",
+                    "https://media.falabella.com/sodimacCO/901131_14/public"
+                ]
+            },
+            {
+                "productId": "438971",
+                "merchantCategoryId": "0104060402",
+                "skuId": "438971",
+                "isPrimeEligible": false,
+                "displayName": "Escalera 0.6 m 2 P Tubular Plegable 91 kg Pretul",
+                "brand": "Pretul",
+                "media": {
+                    "id": "438971",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-57%"
+                    }
+                ],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "136.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 136900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "322.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 322900
+                    }
+                ],
+                "totalReviews": "1",
+                "rating": "5",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "48 cm"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "0.6 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/438971/public",
+                    "https://media.falabella.com/sodimacCO/438971_1/public"
+                ]
+            },
+            {
+                "productId": "60369",
+                "merchantCategoryId": "0104060402",
+                "skuId": "60369",
+                "isPrimeEligible": false,
+                "displayName": "Silla Escalera 5 Pasos Acero Color Millenium",
+                "brand": "Industrias Cruz",
+                "model": "Silla escalera plegable",
+                "media": {
+                    "id": "60369",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "fastShippingLabels": {
+                    "hd_same_day_zones": true,
+                    "hd_next_day_zones": false,
+                    "cc_same_day_zones": true,
+                    "cc_next_day_zones": false
+                },
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "269.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 269900
+                    }
+                ],
+                "totalReviews": "11",
+                "rating": "2.1818",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "Silla escalera plegable"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "54 cm"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "1.58 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/60369/public",
+                    "https://media.falabella.com/sodimacCO/60369_1/public",
+                    "https://media.falabella.com/sodimacCO/60369_2/public"
+                ]
+            },
+            {
+                "productId": "338761",
+                "merchantCategoryId": "0104060501",
+                "skuId": "338761",
+                "isPrimeEligible": false,
+                "displayName": "Escalera Certificada 0.60 m 2 P Banco Dieléctrica 136 kg Fanes",
+                "brand": "Fanes SAS",
+                "media": {
+                    "id": "338761",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-26%"
+                    }
+                ],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "541.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 541900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "739.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 739900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt1536d61c17c37114/68877bfb4ce840a625604ca6/cumpleanos.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Tipo",
+                        "value": "Escaleras dieléctricas"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "51 cm"
+                    },
+                    {
+                        "key": "Largo",
+                        "value": "97 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Fibra de vidrio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "60 cm"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/338761/public",
+                    "https://media.falabella.com/sodimacCO/338761_01/public",
+                    "https://media.falabella.com/sodimacCO/338761_1/public",
+                    "https://media.falabella.com/sodimacCO/338761_2/public"
+                ]
+            },
+            {
+                "productId": "506656",
+                "merchantCategoryId": "0104040403",
+                "skuId": "506656",
+                "isPrimeEligible": false,
+                "displayName": "Banco De Pared 121.9 cm Metaltech",
+                "brand": "Metaltech",
+                "model": "I-BMDWB18",
+                "media": {
+                    "id": "506656",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-26%"
+                    }
+                ],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "2.579.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 2579900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "3.509.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 3509900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "I-BMDWB18"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Carga y levante"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "48 pulgadas"
+                    },
+                    {
+                        "key": "Largo",
+                        "value": "124.9 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/506656/public",
+                    "https://media.falabella.com/sodimacCO/506656_1/public"
+                ]
+            },
+            {
+                "productId": "438974",
+                "merchantCategoryId": "0417030402",
+                "skuId": "438974",
+                "isPrimeEligible": false,
+                "displayName": "Escalera Tubular Plegable 1 Peldaños 91 Kilogramos de Resistencia",
+                "brand": "Pretul",
+                "media": {
+                    "id": "438974",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "238.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 238900
+                    }
+                ],
+                "totalReviews": "3",
+                "rating": "4.6667",
+                "variants": [],
+                "multiPurposeIcon": {},
+                "highlights": [
+                    {
+                        "key": "Tipo",
+                        "value": "Silla Escalera y Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "39 cm"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "0.9 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/438974/public",
+                    "https://media.falabella.com/sodimacCO/438974_1/public"
+                ]
+            },
+            {
+                "productId": "338762",
+                "merchantCategoryId": "0104060501",
+                "skuId": "338762",
+                "isPrimeEligible": false,
+                "displayName": "Escalera Certificada 0.90 m 3 P Banco Dieléctrica 136 kg Fanes",
+                "brand": "Fanes SAS",
+                "media": {
+                    "id": "338762",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-26%"
+                    }
+                ],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "633.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 633900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "864.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 864900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt1536d61c17c37114/68877bfb4ce840a625604ca6/cumpleanos.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Tipo",
+                        "value": "Escaleras dieléctricas"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "54 cm"
+                    },
+                    {
+                        "key": "Largo",
+                        "value": "112 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Fibra de vidrio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "90 cm"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/338762/public",
+                    "https://media.falabella.com/sodimacCO/338762_01/public",
+                    "https://media.falabella.com/sodimacCO/338762_1/public"
+                ]
+            },
+            {
+                "productId": "909874",
+                "merchantCategoryId": "0104060402",
+                "skuId": "909874",
+                "isPrimeEligible": false,
+                "displayName": "Caja Plataforma Plegable 0.25M Bauker",
+                "brand": "Bauker",
+                "model": "PO84-101",
+                "media": {
+                    "id": "909874",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "79.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 79900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt1536d61c17c37114/68877bfb4ce840a625604ca6/cumpleanos.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "PO84-101"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Caja Plataforma"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "45 cm"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "0.25 m"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/909874/public",
+                    "https://media.falabella.com/sodimacCO/909874_01/public",
+                    "https://media.falabella.com/sodimacCO/909874_02/public",
+                    "https://media.falabella.com/sodimacCO/909874_03/public",
+                    "https://media.falabella.com/sodimacCO/909874_04/public",
+                    "https://media.falabella.com/sodimacCO/909874_05/public"
+                ]
+            },
+            {
+                "productId": "580734",
+                "merchantCategoryId": "0104060402",
+                "skuId": "580734",
+                "isPrimeEligible": false,
+                "displayName": "Taburete Escalonado Plegable 2 Escalones",
+                "brand": "Cosco",
+                "model": "11-628ABK4",
+                "media": {
+                    "id": "580734",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "459.900",
+                        "unit": "UND",
+                        "priceWithoutFormatting": 459900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "11-628ABK4"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Bancos de trabajo"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "18.8 pulgadas"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "39.37 pulgadas"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/580734/public",
+                    "https://media.falabella.com/sodimacCO/580734_01/public",
+                    "https://media.falabella.com/sodimacCO/580734_12/public",
+                    "https://media.falabella.com/sodimacCO/580734_13/public",
+                    "https://media.falabella.com/sodimacCO/580734_21/public",
+                    "https://media.falabella.com/sodimacCO/580734_22/public"
+                ]
+            },
+            {
+                "productId": "581387",
+                "merchantCategoryId": "0104060401",
+                "skuId": "581387",
+                "isPrimeEligible": false,
+                "displayName": "Taburete Escalonado de Fibra de Vidrio Tipo Ia X 0.60 M",
+                "brand": "Louisville",
+                "model": "FS1502",
+                "media": {
+                    "id": "581387",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [
+                    {
+                        "type": "DISCOUNT",
+                        "value": "-5%"
+                    }
+                ],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "INTERNET",
+                        "symbol": "$",
+                        "price": "529.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 529900
+                    },
+                    {
+                        "label": "Normal",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "559.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 559900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "FS1502"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "7 pulgadas"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Fibra de Vidrio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "24 pulgadas"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/581387/public",
+                    "https://media.falabella.com/sodimacCO/581387_01/public",
+                    "https://media.falabella.com/sodimacCO/581387_12/public",
+                    "https://media.falabella.com/sodimacCO/581387_17/public",
+                    "https://media.falabella.com/sodimacCO/581387_21/public",
+                    "https://media.falabella.com/sodimacCO/581387_22/public"
+                ]
+            },
+            {
+                "productId": "586847",
+                "merchantCategoryId": "0104060401",
+                "skuId": "586847",
+                "isPrimeEligible": false,
+                "displayName": "Taburete Escalonado Miniatura de Aluminio",
+                "brand": "Core Distribution",
+                "model": "TNA-1",
+                "media": {
+                    "id": "586847",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "219.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 219900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "TNA-1"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "20.2 pulgadas"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "13.9 pulgadas"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/586847/public",
+                    "https://media.falabella.com/sodimacCO/586847_01/public"
+                ]
+            },
+            {
+                "productId": "586294",
+                "merchantCategoryId": "0104060401",
+                "skuId": "586294",
+                "isPrimeEligible": false,
+                "displayName": "Taburete Escalonado Ultra Liviano 3 Escalones",
+                "brand": "Core Distribution",
+                "model": "FT-3",
+                "media": {
+                    "id": "586294",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "479.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 479900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "FT-3"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Sillas escalera y butacos"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "18 pulgadas"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Aluminio"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "42.7 pulgadas"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/586294/public",
+                    "https://media.falabella.com/sodimacCO/586294_01/public"
+                ]
+            },
+            {
+                "productId": "582180",
+                "merchantCategoryId": "0104060301",
+                "skuId": "582180",
+                "isPrimeEligible": false,
+                "displayName": "Banco Plegable Con 2 Escalones Tipo 2",
+                "brand": "Simple Spaces",
+                "model": "YC-608-3L",
+                "media": {
+                    "id": "582180",
+                    "type": "SKU",
+                    "onImageHover": "ZOOM"
+                },
+                "badges": [],
+                "events": [
+                    {
+                        "description": "Envio Gratis internacional",
+                        "value": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltddf552d90076cf52/6615a63e1952f0c89dfc1666/Badge_FreeShiping_New.svg"
+                    }
+                ],
+                "prices": [
+                    {
+                        "label": "",
+                        "type": "NORMAL",
+                        "symbol": "$",
+                        "price": "229.900",
+                        "unit": "Und",
+                        "priceWithoutFormatting": 229900
+                    }
+                ],
+                "variants": [],
+                "multiPurposeIcon": {
+                    "iconUrl": "https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt27bc202bf9e6305f/66df4c55181c2e0f53f8c725/internacional.svg"
+                },
+                "highlights": [
+                    {
+                        "key": "Modelo",
+                        "value": "YC-608-3L"
+                    },
+                    {
+                        "key": "Tipo",
+                        "value": "Bancos de trabajo"
+                    },
+                    {
+                        "key": "Ancho",
+                        "value": "18.13 pulgadas"
+                    },
+                    {
+                        "key": "Material",
+                        "value": "Acero"
+                    },
+                    {
+                        "key": "Alto",
+                        "value": "28.5 pulgadas"
+                    }
+                ],
+                "accumulativePoints": [],
+                "isPromoted": false,
+                "isInternational": "",
+                "installments": {},
+                "mediaUrls": [
+                    "https://media.falabella.com/sodimacCO/582180/public",
+                    "https://media.falabella.com/sodimacCO/582180_01/public"
+                ]
+            }
+        ],
+        "sponsoredBanners": [],
+        "selectedFacets": []
+    },
+    "categoryData": {
+        "results": {
+            "id": "cat1210001",
+            "displayName": "Silla Escalera y Butacos",
+            "defaultParentCategoryId": "cat10620",
+            "metaTitle": "Silla Escalera y Butacos - Homecenter",
+            "metaKeywords": [],
+            "metaDescription": "Comprar Silla Escalera y Butacos en Homecenter, la Tienda con los mejores precios. Pagos Online con Tarjeta Débito, Crédito, CMR, Baloto, Efecty o Cajas en Tienda.",
+            "isRootCategory": "false",
+            "isPublished": "true",
+            "breadcrumbs": [
+                {
+                    "categoryId": "cat720001",
+                    "name": "Construcción y Ferretería",
+                    "isRootCategory": true
+                },
+                {
+                    "categoryId": "cat10620",
+                    "name": "Escaleras y Mudanzas",
+                    "isRootCategory": false
+                },
+                {
+                    "categoryId": "cat1210001",
+                    "name": "Silla Escalera y Butacos",
+                    "isRootCategory": false
+                }
+            ]
+        },
+        "config": {
+            "view": "grid",
+            "isLanding": false
+        }
+    }
+}
