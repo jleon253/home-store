@@ -9,7 +9,12 @@ export class ProductMapper {
    * Centraliza la normalización de tipos y saneamiento de datos.
    */
   static toDomain(dto: ProductDTO): Product {
-    const mainPriceDTO = this.getBestPrice(dto.prices);
+    const allPrices = dto.prices;
+    const normalPriceDto = allPrices.find(p => p.type === PriceType.NORMAL) || allPrices[0];
+    const bestPriceDto = this.getBestPrice(allPrices);
+    const mainPrice = this.mapPrice(bestPriceDto);
+    const originalPrice = this.mapPrice(normalPriceDto);
+    const hasDiscount = mainPrice.amount < originalPrice.amount;
 
     return {
       id: dto.productId,
@@ -21,7 +26,9 @@ export class ProductMapper {
       reviewsCount: parseInt(dto.totalReviews, 10) || 0,
       thumbnail: dto.mediaUrls[0] || '',
       images: dto.mediaUrls,
-      mainPrice: this.mapPrice(mainPriceDTO),
+      mainPrice,
+      originalPrice: hasDiscount ? originalPrice : undefined,
+      hasDiscount,
       badges: this.mapBadges(dto.badges),
       highlights: this.mapHighlights(dto.highlights),
       // Abstracción de lógica de negocio para envío rápido

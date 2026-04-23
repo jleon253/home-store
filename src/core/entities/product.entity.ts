@@ -28,6 +28,8 @@ export interface Product {
   readonly images: string[];
   readonly mainPrice: Price;
   readonly listPrice?: Price;
+  readonly originalPrice?: Price;
+  readonly hasDiscount: boolean;
   readonly badges: ProductBadge[];
   readonly highlights: ProductHighlight[];
   readonly hasFastShipping: boolean;
