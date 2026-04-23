@@ -27,6 +27,7 @@ Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
 - `/`: Home
 - `/cart`: Carrito de compras
 - `/product/[id]`: Detalle del producto
+- `/checkout/success`: Factura de la compra, tras finalizar
 
 ## Decisiones de arquitectura
 
