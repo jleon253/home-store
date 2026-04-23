@@ -54,5 +54,6 @@ Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
 Archivos de formato `.md` ubicados en el directorio `/docs`
 
 - [FrontEnd](/docs/FRONTEND.md)
+- [Testing FrontEnd](/docs/TESTING_FRONTEND.md)
 - [BackEnd](/docs/BACKEND.md)
-- [Testing BackEnd](/docs/TESTING.md)
+- [Testing BackEnd](/docs/TESTING_BACKEND.md)

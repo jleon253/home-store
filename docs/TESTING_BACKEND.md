@@ -1,4 +1,4 @@
-# Guía de Testing - Home Store
+# Guía de Testing BackEnd - Home Store
 
 ## Resumen de la Configuración
 
