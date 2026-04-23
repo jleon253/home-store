@@ -14,6 +14,22 @@
 ## Primeros pasos
 
 - Ejecutar `npm install`
+- Configurar el archvivo `.env.local`
+
+```bash
+# API Configuration
+NEXT_PUBLIC_API_BASE_URL=https://apim-dev-proxy.sodhc.co/test-jasson/api
+NEXT_PUBLIC_API_CATEGORY_ENDPOINT=/category
+
+# Feature Flags & Config
+NEXT_PUBLIC_DEFAULT_CACHE_TIME=3600
+NEXT_PUBLIC_ENABLE_MOCKS=false
+
+# Tiempo mínimo para caché en páginas de catálogo (en segundos)
+# Para SSR puro on-demand se usa 0 o se ignora con 'no-store'
+NEXT_PUBLIC_SSR_REVALIDATE=0
+```
+
 - Correr el servidor de desarrollo
 
 ```bash
