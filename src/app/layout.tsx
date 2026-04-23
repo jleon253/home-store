@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+
+import '@fontsource/fira-sans/300.css';
+import '@fontsource/fira-sans/400.css';
+import '@fontsource/fira-sans/500.css';
+import '@fontsource/fira-sans/700.css';
+
 import "./globals.css";
 
 const geistSans = localFont({
