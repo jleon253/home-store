@@ -3,3 +3,8 @@ export { CartIconBadge } from './CartIconBadge';
 export { ProductCard } from './ProductCard';
 export { ProductGridHeader } from './ProductGridHeader';
 export { FeedbackModal, ModalType } from "./FeedbackModal";
+export { OrderSummary } from './OrderSummary';
+export { CartItemRow } from './CartItemRow';
+export { BodyCarousel } from './BodyCarousel';
+export { ProductInfoBlock } from './ProductInfoBlock';
+export { ProductTechnicalSpecs } from './ProductTechnicalSpecs';

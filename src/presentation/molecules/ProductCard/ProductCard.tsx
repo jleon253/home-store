@@ -17,6 +17,7 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import { Product } from "@/core/entities/product.entity";
 import { ViewMode } from "@/shared/enums/category.enum";
+import Link from "next/dist/client/link";
 
 interface ProductCardProps {
   product: Product;
@@ -44,6 +45,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   } = product;
 
   const isList = viewMode === ViewMode.LIST;
+  const productUrl = `/product/${product.id}`;
 
   // Cálculo del porcentaje de descuento
   const discountPercentage =
@@ -191,6 +193,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </Button>
 
           <Button
+            component={Link}
+            href={productUrl}
             variant="outlined"
             fullWidth
             startIcon={<VisibilityIcon />}
