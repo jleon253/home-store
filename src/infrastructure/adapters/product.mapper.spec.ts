@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { ProductMapper } from './product.mapper';
-import { ProductDTO, PriceDTO } from '../api/dtos/product.dto';
-import { BadgeDTO, HighlightDTO } from '../api/dtos/product-extras.dto';
+import { ProductDTO } from '../api/dtos/product.dto';
 import { PriceType, UnitType, BadgeType, Highlights } from '@/shared/enums/product.enum';
 import { Product } from '@/core/entities/product.entity';
 
@@ -253,7 +252,7 @@ describe('ProductMapper - toDomain', () => {
             priceWithoutFormatting: 100000,
           },
         ],
-        badges: undefined,
+        badges: [],
         totalReviews: '42',
         rating: '4.5',
         highlights: [],
@@ -299,7 +298,7 @@ describe('ProductMapper - toDomain', () => {
         badges: [],
         totalReviews: '42',
         rating: '4.5',
-        highlights: undefined,
+        highlights: [],
         events: [],
         variants: [],
         accumulativePoints: [],

@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { ApiProductRepository } from './api-product.repository';
 import { Product } from '@/core/entities/product.entity';
-import { errorHandlers, handlers } from '../api/mocks/handlers';
+import { errorHandlers } from '../api/mocks/handlers';
 import { server } from '../api/mocks/setup';
 
 describe('ApiProductRepository', () => {
@@ -18,9 +18,6 @@ describe('ApiProductRepository', () => {
    */
   describe('API consumption', () => {
     it('should build the correct API URL from environment variables', async () => {
-      // Arrange - The handlers will verify the URL is correct
-      const expectedUrl = `${process.env.NEXT_PUBLIC_API_BASE_URL}${process.env.NEXT_PUBLIC_API_CATEGORY_ENDPOINT}`;
-
       // Act
       const products = await repository.getProducts();
 
