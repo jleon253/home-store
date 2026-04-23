@@ -50,6 +50,14 @@ static sort(products: Product[], order: SortOrder): Product[] {
 }
 ```
 
+- **`src/core/entities/product.entity.ts`**: Se actualiza la interfaz para soportar la visualización de ofertas.
+
+```tsx
+readonly mainPrice: Price;      // Precio final transaccional
+readonly originalPrice?: Price; // Precio base (opcional)
+readonly hasDiscount: boolean;  // Estado de oferta
+```
+
 #### Capa de Infraestructura (Adapters & API)
 
 Implementaciones concretas de los contratos y comunicación con el exterior.
@@ -65,11 +73,25 @@ mainPrice: this.mapPrice(this.getBestPrice(dto.prices)),
 ```
 
 - **`src/infrastructure/repositories/api-product.repository.ts`**:
-    - Implementación de red que consume las variables de entorno.
-    - Ahora soporta inyección de política de caché dinámica.
+  - Implementación de red que consume las variables de entorno.
+  - Ahora soporta inyección de política de caché dinámica.
 
 ```tsx
-const fetchOptions = isDynamic ? { cache: 'no-store' } : { next: { revalidate: 3600 } };
+const fetchOptions = isDynamic
+  ? { cache: "no-store" }
+  : { next: { revalidate: 3600 } };
+```
+
+- **`src/infrastructure/adapters/product.mapper.ts`**: Implementación de la lógica de comparación.
+
+```tsx
+const hasDiscount = mainPrice.amount < originalPrice.amount;
+return {
+  // ...
+  mainPrice,
+  originalPrice: hasDiscount ? originalPrice : undefined,
+  hasDiscount,
+};
 ```
 
 #### Capa de Configuración y Scripts
@@ -83,12 +105,12 @@ const fetchOptions = isDynamic ? { cache: 'no-store' } : { next: { revalidate: 3
 Actúa como mediadora entre la UI y la Infraestructura.
 
 - **`src/application/use-cases/get-store-catalog.use-case.ts`**: Orquestador de la lógica para obtener el catálogo completo.
-    - *Fragmento:*
+  - _Fragmento:_
 
 ```tsx
 const [products, category] = await Promise.all([
   this.productRepository.getProducts(true),
-  this.productRepository.getCategoryData(true)
+  this.productRepository.getCategoryData(true),
 ]);
 ```
 
@@ -132,6 +154,12 @@ Se ha optado por centralizar la lógica de ordenamiento en un **Domain Service**
 
 - **Razón:** Dado que el dataset es acotado ($n=20$), el procesamiento en memoria garantiza latencia cero para el usuario. Al ubicar esta lógica en el Dominio, aseguramos que las reglas de negocio (como la jerarquía de precios para el ordenamiento) sean consistentes, testeables y reutilizables en cualquier componente.
 
+### G. Centralización de la Lógica de Descuentos
+
+Se ha decidido que el cálculo de la diferencia entre el precio base y el precio de oferta sea responsabilidad del **Mapper (Infraestructura)**.
+
+- **Razón:** Garantiza que la UI sea puramente representativa. Al entregar una propiedad opcional `originalPrice` y un booleano `hasDiscount`, eliminamos la necesidad de que el frontend realice comparaciones numéricas o conozca las reglas de negocio de los tipos de precio (CMR, Internet, Normal). Si `originalPrice` es `undefined`, el sistema asume que no existe oferta, simplificando el renderizado condicional.
+
 ---
 
 ## 4. Flujo de datos
@@ -140,7 +168,7 @@ Se ha optado por centralizar la lógica de ordenamiento en un **Domain Service**
 - **Orquestación:** El Use Case solicita datos frescos (`isDynamic: true`) al repositorio.
 - **Fetch Dinámico:** `ApiProductRepository` ejecuta el fetch con `no-store`, forzando a Vercel a realizar una petición al origen en tiempo de ejecución; utilizando el endpoint configurado en `.env`.
 - **Transferencia:** El API retorna un `RootResponseDTO`.
-- **Transformación:** El `ProductMapper` intercepta el DTO, aplica lógica de jerarquía de precios y normaliza los tipos de datos.
+- **Transformación:** El `ProductMapper` normaliza los tipos, selecciona el mejor precio y determina mediante comparación si el producto posee un descuento activo, asignando las propiedades de precio correspondientes, ademas normaliza los datos.
 - **Respuesta Unificada:** El Use Case consolida productos y categorías en un solo objeto de respuesta, reduciendo la lógica en la capa de presentación.
 - **Transformación de Vista (Opcional):** La capa de aplicación o los componentes de la UI invocan al `ProductSortService` para reordenar la colección según la interacción del usuario, obteniendo un nuevo array inmutable.
 
@@ -167,7 +195,7 @@ private async fetchFromApi(): Promise<RootResponseDTO> {
 
 ## 6. Consideraciones para Implementaciones Futuras (IA)
 
-1. **Inyección de Dependencias:** Se recomienda usar un patrón *Provider* o *Singleton* para instanciar el repositorio.
+1. **Inyección de Dependencias:** Se recomienda usar un patrón _Provider_ o _Singleton_ para instanciar el repositorio.
 2. **CORS:** Si se presentan bloqueos en el navegador, configurar `rewrites` en `next.config.js` apuntando a la base URL definida en el `.env`.
 3. **Testing:** Utilizar el archivo `endpoint-example.json` como base para los estados de MSW en pruebas unitarias.
 4. **Script de validación**: `src/scripts/test-api.ts` que contiene una pequeña prueba de implementación para esta arquitectura.
