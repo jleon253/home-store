@@ -1,0 +1,1 @@
+export { BodyCarousel } from './BodyCarousel';
