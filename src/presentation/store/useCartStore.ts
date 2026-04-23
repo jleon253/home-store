@@ -20,11 +20,14 @@ interface CartState {
   updateQuantity: (productId: string, delta: number) => void;
   removeItem: (productId: string) => void;
   clearCart: () => void;
+  getSubtotal: () => number;
+  getTotal: () => number;
+  getSavings: () => number;
 }
 
 export const useCartStore = create<CartState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
       items: [],
 
       addItem: (product) => set((state) => {
@@ -52,6 +55,16 @@ export const useCartStore = create<CartState>()(
       })),
 
       clearCart: () => set({ items: [] }),
+
+      getSubtotal: () => get().items.reduce((acc, item) => acc + (item.originalPrice?.amount || item.mainPrice.amount) * item.quantity, 0),
+
+      getTotal: () => get().items.reduce((acc, item) => acc + (item.mainPrice.amount * item.quantity), 0),
+
+      getSavings: () => {
+        const subtotal = get().getSubtotal();
+        const total = get().getTotal();
+        return subtotal - total;
+      }
     }),
     {
       name: 'cart-storage',
