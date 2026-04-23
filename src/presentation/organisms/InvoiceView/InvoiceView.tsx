@@ -56,6 +56,7 @@ export const InvoiceView = () => {
   if (isProcessed && orderSummary.items.length === 0) {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', py: 10 }}>
+        <Typography>No hay órdenes pendientes</Typography>
         <CircularProgress sx={{ color: '#EC6608' }} />
       </Box>
     );
