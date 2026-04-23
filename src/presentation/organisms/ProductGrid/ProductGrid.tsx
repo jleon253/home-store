@@ -59,7 +59,7 @@ export const ProductGrid: React.FC = () => {
     setModalConfig({
       open: true,
       type: ModalType.SUCCESS,
-      title: '¡Añadido!',
+      title: '¡Producto añadido!',
       message: `${product.title} agregado en tu carrito.`
     });
     console.log("Agregado al carrito:", product.id);
